@@ -1,0 +1,6 @@
+D:\Projects\C# & ASP.NET\dotNetTasker\dotNetTasker\bin\Debug\dotNetTasker.exe.config
+D:\Projects\C# & ASP.NET\dotNetTasker\dotNetTasker\bin\Debug\dotNetTasker.exe
+D:\Projects\C# & ASP.NET\dotNetTasker\dotNetTasker\bin\Debug\dotNetTasker.pdb
+D:\Projects\C# & ASP.NET\dotNetTasker\dotNetTasker\obj\Debug\dotNetTasker.csprojResolveAssemblyReference.cache
+D:\Projects\C# & ASP.NET\dotNetTasker\dotNetTasker\obj\Debug\dotNetTasker.exe
+D:\Projects\C# & ASP.NET\dotNetTasker\dotNetTasker\obj\Debug\dotNetTasker.pdb
