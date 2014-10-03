@@ -16,6 +16,9 @@ namespace OOP
             Overloading2 overloading2 = new Overloading2();
             overloading2.Start();
 
+            Overloading3 overloading3 = new Overloading3();
+            overloading3.Start();
+
             Console.ReadLine();
         }
     }
