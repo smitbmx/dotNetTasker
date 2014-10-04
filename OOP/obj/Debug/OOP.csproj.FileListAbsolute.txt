@@ -1,5 +1,4 @@
 D:\Projects\C# & ASP.NET\dotNetTasker\OOP\bin\Debug\OOP.exe.config
-D:\Projects\C# & ASP.NET\dotNetTasker\OOP\obj\Debug\OOP.csprojResolveAssemblyReference.cache
 D:\Projects\C# & ASP.NET\dotNetTasker\OOP\bin\Debug\OOP.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\OOP\bin\Debug\OOP.pdb
 D:\Projects\C# & ASP.NET\dotNetTasker\OOP\obj\Debug\OOP.exe

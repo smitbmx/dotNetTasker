@@ -10,14 +10,17 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            Overloading1 overloading1 = new Overloading1();
-            overloading1.Start();
+            //Overloading1 overloading1 = new Overloading1();
+            //overloading1.Start();
 
-            Overloading2 overloading2 = new Overloading2();
-            overloading2.Start();
+            //Overloading2 overloading2 = new Overloading2();
+            //overloading2.Start();
 
-            Overloading3 overloading3 = new Overloading3();
-            overloading3.Start();
+            //Overloading3 overloading3 = new Overloading3();
+            //overloading3.Start();
+
+            InheritanceNestedClass inheritanceNestedClass = new InheritanceNestedClass();
+            inheritanceNestedClass.Start();
 
             Console.ReadLine();
         }

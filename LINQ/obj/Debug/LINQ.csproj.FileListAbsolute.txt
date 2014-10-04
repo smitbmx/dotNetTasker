@@ -1,6 +1,5 @@
 D:\Projects\C# & ASP.NET\dotNetTasker\LINQ\bin\Debug\LINQ.exe.config
 D:\Projects\C# & ASP.NET\dotNetTasker\LINQ\bin\Debug\LINQ.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\LINQ\bin\Debug\LINQ.pdb
-D:\Projects\C# & ASP.NET\dotNetTasker\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
 D:\Projects\C# & ASP.NET\dotNetTasker\LINQ\obj\Debug\LINQ.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\LINQ\obj\Debug\LINQ.pdb

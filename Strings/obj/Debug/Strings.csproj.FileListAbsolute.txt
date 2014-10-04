@@ -1,6 +1,5 @@
 D:\Projects\C# & ASP.NET\dotNetTasker\Strings\bin\Debug\Strings.exe.config
 D:\Projects\C# & ASP.NET\dotNetTasker\Strings\bin\Debug\Strings.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\Strings\bin\Debug\Strings.pdb
-D:\Projects\C# & ASP.NET\dotNetTasker\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
 D:\Projects\C# & ASP.NET\dotNetTasker\Strings\obj\Debug\Strings.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\Strings\obj\Debug\Strings.pdb
