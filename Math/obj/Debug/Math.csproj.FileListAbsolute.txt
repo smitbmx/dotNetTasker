@@ -3,3 +3,4 @@ D:\Projects\C# & ASP.NET\dotNetTasker\Math\bin\Debug\Math.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\Math\bin\Debug\Math.pdb
 D:\Projects\C# & ASP.NET\dotNetTasker\Math\obj\Debug\Math.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\Math\obj\Debug\Math.pdb
+D:\Projects\C# & ASP.NET\dotNetTasker\Math\obj\Debug\Math.csprojResolveAssemblyReference.cache

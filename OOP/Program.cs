@@ -19,8 +19,9 @@ namespace OOP
             //Overloading3 overloading3 = new Overloading3();
             //overloading3.Start();
 
-            InheritanceNestedClass inheritanceNestedClass = new InheritanceNestedClass();
-            inheritanceNestedClass.Start();
+            //InheritanceNestedClass inheritanceNestedClass = new InheritanceNestedClass();
+            //inheritanceNestedClass.Start();
+
 
             Console.ReadLine();
         }

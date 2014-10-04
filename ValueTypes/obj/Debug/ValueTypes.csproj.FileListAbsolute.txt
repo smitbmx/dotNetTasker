@@ -3,3 +3,4 @@ D:\Projects\C# & ASP.NET\dotNetTasker\ValueTypes\bin\Debug\ValueTypes.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\ValueTypes\bin\Debug\ValueTypes.pdb
 D:\Projects\C# & ASP.NET\dotNetTasker\ValueTypes\obj\Debug\ValueTypes.exe
 D:\Projects\C# & ASP.NET\dotNetTasker\ValueTypes\obj\Debug\ValueTypes.pdb
+D:\Projects\C# & ASP.NET\dotNetTasker\ValueTypes\obj\Debug\ValueTypes.csprojResolveAssemblyReference.cache

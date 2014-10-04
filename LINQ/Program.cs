@@ -10,6 +10,10 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
+            EnumerableToArray enumerableToArray = new EnumerableToArray();
+            enumerableToArray.Start();
+
+            Console.ReadLine();
         }
     }
 }
