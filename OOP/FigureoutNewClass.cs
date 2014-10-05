@@ -26,6 +26,7 @@ namespace OOP
 
             public Man()
             {
+                Sex = "Man";
                 Strong = "unknown";
             }
         }
