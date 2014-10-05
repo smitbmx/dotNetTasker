@@ -22,6 +22,9 @@ namespace OOP
             //InheritanceNestedClass inheritanceNestedClass = new InheritanceNestedClass();
             //inheritanceNestedClass.Start();
 
+            FigureoutNewClass figureoutNewClass = new FigureoutNewClass();
+            figureoutNewClass.Start();
+
 
             Console.ReadLine();
         }
