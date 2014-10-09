@@ -10,8 +10,11 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
-            EnumerableToArray enumerableToArray = new EnumerableToArray();
-            enumerableToArray.Start();
+            //EnumerableToArray enumerableToArray = new EnumerableToArray();
+            //enumerableToArray.Start();
+
+            LifeAfterYield lifeAfterYield = new LifeAfterYield();
+            lifeAfterYield.Start();
 
             Console.ReadLine();
         }
