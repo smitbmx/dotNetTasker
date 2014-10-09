@@ -10,11 +10,14 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
-            //EnumerableToArray enumerableToArray = new EnumerableToArray();
+            EnumerableToArray enumerableToArray = new EnumerableToArray();
             //enumerableToArray.Start();
 
             LifeAfterYield lifeAfterYield = new LifeAfterYield();
-            lifeAfterYield.Start();
+            //lifeAfterYield.Start();
+
+            Closure  closure = new Closure();
+            closure.Start();
 
             Console.ReadLine();
         }
