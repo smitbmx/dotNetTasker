@@ -17,7 +17,10 @@ namespace LINQ
             //lifeAfterYield.Start();
 
             Closure  closure = new Closure();
-            closure.Start();
+            //closure.Start();
+
+            QueryAfterRemove queryAfterRemove = new QueryAfterRemove();
+            queryAfterRemove.Start();
 
             Console.ReadLine();
         }
