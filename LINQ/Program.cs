@@ -20,7 +20,10 @@ namespace LINQ
             //closure.Start();
 
             QueryAfterRemove queryAfterRemove = new QueryAfterRemove();
-            queryAfterRemove.Start();
+            //queryAfterRemove.Start();
+
+            ClosureAndVariable closureAndVariable = new ClosureAndVariable();
+            closureAndVariable.Start();
 
             Console.ReadLine();
         }
