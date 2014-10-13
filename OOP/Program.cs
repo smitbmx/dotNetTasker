@@ -23,7 +23,13 @@ namespace OOP
             //inheritanceNestedClass.Start();
 
             FigureoutNewClass figureoutNewClass = new FigureoutNewClass();
-            figureoutNewClass.Start();
+            //figureoutNewClass.Start();
+
+            Inheritance1.Program inheritance1 = new Inheritance1.Program();
+            //inheritance1.Start();
+
+            Inheritance2.Program inheritance2 = new Inheritance2.Program();
+            inheritance2.Start();
 
 
             Console.ReadLine();
