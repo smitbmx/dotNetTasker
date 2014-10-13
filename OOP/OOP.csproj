@@ -44,6 +44,7 @@
     <Compile Include="FigureoutNewClass.cs" />
     <Compile Include="Inheritance1.cs" />
     <Compile Include="Inheritance2.cs" />
+    <Compile Include="Inheritance3DifferentTypes.cs" />
     <Compile Include="InheritanceNestedClass.cs" />
     <Compile Include="Overloading1.cs" />
     <Compile Include="Overloading2.cs" />
