@@ -29,7 +29,10 @@ namespace OOP
             //inheritance1.Start();
 
             Inheritance2.Program inheritance2 = new Inheritance2.Program();
-            inheritance2.Start();
+            //inheritance2.Start();
+
+            ExplicitInterface explicitInterface = new ExplicitInterface();
+            explicitInterface.Start();
 
 
             Console.ReadLine();
