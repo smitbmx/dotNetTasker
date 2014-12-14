@@ -10,6 +10,11 @@ namespace LinkedLst
     {
         static void Main(string[] args)
         {
+            LinkedList list = new LinkedList();
+            //LinkedList<string> list2 = new LinkedList<string>();
+            
+
+            Console.ReadLine();
         }
     }
 }

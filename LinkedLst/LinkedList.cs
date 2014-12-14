@@ -9,15 +9,15 @@ namespace LinkedLst
     public class LinkedList
     {
         /* Constructor:
-         * [ ] LinkedList() - Initializes the private fields
+         * [x] LinkedList() - Initializes the private fields
          * 
          * Private Fields:
-         * [ ] Node head - Is a reference to the FIRST node in the list
-         * [ ] int count - The current size of the list
+         * [x] Node head - Is a reference to the FIRST node in the list
+         * [x] int count - The current size of the list
          * 
          * Public Properties:
-         * [ ] Empty - If the list is empty
-         * [ ] Count - How many items are in the list
+         * [x] IsEmpty - If the list is empty
+         * [x] Count - How many items are in the list
          * [ ] Indexer - Access data like an array.
          * 
          * Methods:
@@ -29,5 +29,24 @@ namespace LinkedLst
          * [ ] Contains(object o) - if the list contains the object
          * [ ] Get(int index) - Gets item at the specified index 
          */
+
+        private Node head;
+        private int count;
+
+        public LinkedList()
+        {
+            this.head = null;
+            this.count = 0;
+        }
+
+        public bool IsEmpty
+        {
+            get{return this.count == 0}
+        }
+
+        public int Count
+        {
+            get { return this.count; }
+        }
     }
 }
