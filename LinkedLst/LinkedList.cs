@@ -41,12 +41,50 @@ namespace LinkedLst
 
         public bool IsEmpty
         {
-            get{return this.count == 0}
+            get { return this.count == 0; }
         }
 
         public int Count
         {
             get { return this.count; }
+        }
+
+        public object Add(int index, object o)
+        {
+            if (index < 0)
+            {
+                throw new ArgumentOutOfRangeException("index: " + index);
+            }
+
+            if (index >= count)
+            {
+                index = count;
+            }
+
+            Node current = this.head;
+
+            if (this.IsEmpty || index == 0)
+            {
+                this.head = new Node(o, this.head);
+            }
+            else
+            {
+                for (int i = 0; i < index - 1; i++)
+                {
+                    current = current.Next;
+                }
+
+                current.Next = new Node(o, current.Next);
+            }
+
+            count++;
+
+            return o;
+        }
+
+        public object Add(object o)
+        {
+            return this.Add(count, o);
         }
     }
 }
