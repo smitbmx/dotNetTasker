@@ -86,5 +86,53 @@ namespace LinkedLst
         {
             return this.Add(count, o);
         }
+
+        public object Remove(int index)
+        {
+            if (index < 0)
+            {
+                throw new ArgumentOutOfRangeException("index: " + index);
+            }
+
+            if (this.IsEmpty)
+            {
+                return null;
+            }
+
+            if (index > this.count)
+            {
+                index = count - 1;
+            }
+
+            Node current = this.head;
+            object result = null;
+
+            if (index == 0)
+            {
+                result = current.Data;
+                this.head = current.Next;
+            }
+            else
+            {
+                for (int i = 0; i < index - 1; i++)
+                {
+                    current = current.Next;
+                }
+
+                result = current.Next.Data;
+
+                current.Next = current.Next.Next;
+            }
+
+            count--;
+
+            return result;
+        }
+
+        public void Clear()
+        {
+            head.Next = null;
+            count = 0;
+        }
     }
 }
