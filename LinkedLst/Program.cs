@@ -15,7 +15,9 @@ namespace LinkedLst
             list.Add("Test1");
             list.Add("Test2");
             list.Add(1, "Test3");
-            
+
+            int index = list.IndexOf("Test3");
+            bool contains = list.Contains("Hello");
 
             Console.ReadLine();
         }

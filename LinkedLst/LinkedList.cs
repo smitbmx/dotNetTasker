@@ -134,5 +134,27 @@ namespace LinkedLst
             head.Next = null;
             count = 0;
         }
+
+        public int IndexOf(object o)
+        {
+            Node current = this.head;
+
+            for (int i = 0; i < count; i++)
+            {
+                if (current.Data.Equals(o))
+                {
+                    return i;
+                }
+
+                current = current.Next;
+            }
+
+            return -1;
+        }
+
+        public bool Contains(object o)
+        {
+            return this.IndexOf(o) >= 1;
+        }
     }
 }
