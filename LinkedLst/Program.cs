@@ -19,6 +19,8 @@ namespace LinkedLst
             int index = list.IndexOf("Test3");
             bool contains = list.Contains("Hello");
 
+            object o = list[2];
+
             Console.ReadLine();
         }
     }

@@ -49,6 +49,11 @@ namespace LinkedLst
             get { return this.count; }
         }
 
+        public object this[int index]
+        {
+            get { return this.Get(index); }
+        }
+
         public object Add(int index, object o)
         {
             if (index < 0)
@@ -56,7 +61,7 @@ namespace LinkedLst
                 throw new ArgumentOutOfRangeException("index: " + index);
             }
 
-            if (index >= count)
+            if (index > count)
             {
                 index = count;
             }
@@ -99,7 +104,7 @@ namespace LinkedLst
                 return null;
             }
 
-            if (index > this.count)
+            if (index >= this.count)
             {
                 index = count - 1;
             }
@@ -155,6 +160,33 @@ namespace LinkedLst
         public bool Contains(object o)
         {
             return this.IndexOf(o) >= 1;
+        }
+
+        public object Get(int index)
+        {
+            if (index < 0)
+            {
+                throw new ArgumentOutOfRangeException("Index: " + index);
+            }
+
+            if (this.IsEmpty)
+            {
+                return null;
+            }
+
+            if (index >= count)
+            {
+                index = this.count - 1;
+            }
+
+            Node currentNode = this.head;
+
+            for (int i = 0; i < index; i++)
+            {
+                currentNode = currentNode.Next;
+            }
+
+            return currentNode.Data;
         }
     }
 }
